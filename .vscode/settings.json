@@ -2,6 +2,8 @@
 {
     // Unofficially, QMK uses spaces for indentation
     "editor.insertSpaces": true,
+    // Trigger ClangFormat on save
+    "editor.formatOnSave": true,
     // Configure glob patterns for excluding files and folders.
     "files.exclude": {
         "**/.build": true,
@@ -23,5 +25,14 @@
         "editor.trimAutoWhitespace": false,
         "files.trimTrailingWhitespace": false
     },
-    "python.formatting.provider": "yapf"
+    "terminal.integrated.shell.windows": "C:\\msys64\\usr\\bin\\bash.exe",
+     "terminal.integrated.env.windows": {
+        "MSYSTEM": "MINGW64",
+        "CHERE_INVOKING": "1"
+     },
+    "terminal.integrated.shellArgs.windows": [
+        "--login"
+    ],
+    "terminal.integrated.cursorStyle": "line",
+    "C_Cpp.errorSquiggles": "Enabled"
 }
