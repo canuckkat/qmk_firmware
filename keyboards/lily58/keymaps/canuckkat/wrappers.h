@@ -40,8 +40,8 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
         KC_ESC,  K01, K02, K03, K04, K05,                    K06, K07, K08, K09, K0A, KC_BSPC,  \
         KC_TAB,  K11, K12, K13, K14, K15,                    K16, K17, K18, K19, K1A, KC_BSLS, \
         KC_LCTL, K21, K22, K23, K24, K25,                    K26, K27, K28, K29, K2A, KC_QUOT, \
-        KC_LSFT, K31, K32, K33, K34, K35, KC_LBRC, KC_RBRC,  K36, K37, K38, K39, K3A, KC_RSFT, \
-                 KC_LEAD, KC_LALT, MO(_LOWER), KC_SPC,       KC_ENT,   MO(_RAISE), KC_BSPC, KC_RGUI           \
+        KC_LSFT, K31, K32, K33, K34, K35, KC_LBRC,  KC_RBRC, K36, K37, K38, K39, K3A, KC_RSFT, \
+            KC_LEAD, KC_LALT, MO(_LOWER), KC_SPC,   KC_ENT,  MO(_RAISE), KC_BSPC, KC_RGUI           \
     )
 /* Re-pass though to allow templates to be used */
 #define LAYOUT_lily58_base_wrapper(...) LAYOUT_lily58_base(__VA_ARGS__)

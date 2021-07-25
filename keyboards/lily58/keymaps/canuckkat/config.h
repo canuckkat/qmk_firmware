@@ -17,7 +17,7 @@
 #pragma once
 
 // Use custom magic number so that when switching branches, EEPROM always gets reset
-#define EECONFIG_MAGIC_NUMBER (uint16_t)0x1339
+// #define EECONFIG_MAGIC_NUMBER (uint16_t)0x1339
 
 // #define QMK_ESC_OUTPUT F1 // usually COL
 // #define QMK_ESC_INPUT D5 // usually ROW
@@ -42,6 +42,10 @@
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
+
+// From HellSingCoder's Luna pet
+#define OLED_TIMEOUT 120000 //fixes OLED on/off issue
+#define OLED_BRIGHTNESS 120
 
 // Underglow
 /*
